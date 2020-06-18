@@ -74,7 +74,7 @@ func consume(channel chan Item, wg *sync.WaitGroup, myId int) {
 	}
 }
 
-// This program creates three producer threads using goroutines, and three
+// This program creates three producer threads using goroutines, and six
 // consumer threads also using goroutines. They communicate using the standard
 // go channel mechanism, so no external locking code is needed.
 func main() {
